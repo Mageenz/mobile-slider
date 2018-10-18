@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mg-slide {
+	width: 100%;
+	overflow-x: hidden;
+	position: relative;
+}
+.mg-slide-container {
+	transition-property: transform;
+	overflow: hidden;
+	will-change: transform;
+}
+.mg-slide-item {
+	float: left;
+}
+.mg-slide-item img {
+	width: 100%;
+	display: block;
+}
+.mg-navigation {
+    position: absolute;
+    bottom: 15px;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 0 15px;
+    justify-content: center;
+}
+
+.mg-navigation li {
+    /* float: left; */
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-right: 5px;
+    transition: .2s;
+}
+
+.mg-navigation li.active {
+    background-color: #4788ed;
+}
+
+/*自定义样式*/
+.mg-slide-item .img{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vw;
+}
