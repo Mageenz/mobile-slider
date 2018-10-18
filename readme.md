@@ -1,8 +1,8 @@
-## 简介
+### 简介
 
 移动端滑动插件，无依赖。
 
-## 用法
+### 用法
 
 首先引用css
 ```
@@ -17,7 +17,7 @@
 </script>
 ```
 
-## html
+### html
 
 ```html
 <div class="mg-slide s1">
@@ -41,7 +41,7 @@
 </div>
 ```
 
-## css
+### css
 
 较多，核心部分，思路是mg-slide为固定的容器，超出部分隐藏。mg-slide-container是内容，主要就是控制它的位置(translate3d)。
 [will-change](https://developer.mozilla.org/zh-CN/docs/Web/CSS/will-change)。
@@ -72,7 +72,7 @@ auto         | 是否开启自动滑动        | boolean | true
 autoDuration         | 自动滑动的时间间隔        | number | 6000
 navigation         | 是否启用分页        | boolean | true
 
-## 优化
+### 优化
 
 - 更丰富配置项
 - 滑动角度的问题
