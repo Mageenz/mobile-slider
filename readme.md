@@ -1,8 +1,8 @@
-### 简介
+## 简介
 
 移动端滑动插件，无依赖。
 
-### 用法
+## 用法
 
 首先引用css
 ```
@@ -17,6 +17,7 @@
 </script>
 ```
 
+## 结构
 ### html
 
 ```html
@@ -63,7 +64,7 @@
 
 通过[touch](https://developer.mozilla.org/zh-CN/docs/Web/API/TouchEvent)事件控制mg-slide-container位置，目前有默认的4个配置项，具体看代码吧。
 
-### 配置
+## 配置
 
 参数名称 | 描述 | 类型 | 默认值
 :----------- | :----------- | :----------- | :---------
@@ -71,10 +72,14 @@ speed         | 过渡动画的速度        | number | 300
 auto         | 是否开启自动滑动        | boolean | true
 autoDuration         | 自动滑动的时间间隔        | number | 6000
 navigation         | 是否启用分页        | boolean | true
+onSlideStart | 滑动开始事件 | 参数为当前的index | |
+onSlideEnd | 滑动结束事件 | 参数为当前的index | |
 
-### 优化
+## 优化
 
 - 更丰富配置项
-- 滑动角度的问题
-- 无限滚动的设计
-- 更少的bug
+- 触摸角度的问题
+- 实现无限滚动
+- 实现响应式
+- bug
+- 精简代码

@@ -52,10 +52,11 @@
 
 <script type="text/javascript" src="./slide.js"></script>
 <script type="text/javascript">
-	console.log(slide)
-	const s1 = new slide('.s1')
-	// const s2 = new slide('.s2')
-	
+	const slide = new mSlide('.s1', {
+		onSlideEnd(v) {
+			// alert(v)
+		}
+	})
 </script>
 </body>
 </html>
