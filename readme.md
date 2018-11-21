@@ -1,25 +1,15 @@
 ## 简介
 
-移动端滑动插件，无依赖。
+工作养老，开发了个H5移动端滑动插件练练手，简单轻量，bug应该不少。
 
 ## 用法
 
-首先引用css
-```
+### css
+```css
 <link rel="stylesheet" type="text/css" href="./slide.css">
 ```
 
-然后引用js
-```
-<script type="text/javascript" src="./slide.js"></script>
-<script type="text/javascript">
-	const slide = new slide('.slide')
-</script>
-```
-
-## 结构
 ### html
-
 ```html
 <div class="mg-slide s1">
 	<div class="mg-slide-container">
@@ -41,6 +31,16 @@
 	</div>
 </div>
 ```
+
+### js
+```js
+<script type="text/javascript" src="./slide.js"></script>
+<script type="text/javascript">
+	const slide = new mSlide('.slide')
+</script>
+```
+
+## 开发思路
 
 ### css
 
