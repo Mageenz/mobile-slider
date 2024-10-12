@@ -16,12 +16,6 @@
 	<div class="mg-slide-item">
 		<div class="img" style="background-image: url(./3.jpg);"></div>
 	</div>
-	<div class="mg-slide-item">
-		<div class="img" style="background-image: url(./1.jpg);"></div>
-	</div>
-	<div class="mg-slide-item">
-		<div class="img" style="background-image: url(./2.png);"></div>
-	</div>
 </div>
 ```
 
