@@ -1,9 +1,4 @@
-## 简介
-
-工作养老，开发了个H5移动端滑动插件练练手，简单轻量，bug应该不少。
-
 ## 用法
-
 ### css
 ```css
 <link rel="stylesheet" type="text/css" href="./slide.css">
