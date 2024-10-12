@@ -7,23 +7,23 @@
 ### html
 ```html
 <div class="mg-slide s1">
-	<div class="mg-slide-container">
-		<div class="mg-slide-item">
-			<div class="img" style="background-image: url(./1.jpg);"></div>
-		</div>
-		<div class="mg-slide-item">
-			<div class="img" style="background-image: url(./2.png);"></div>
-		</div>
-		<div class="mg-slide-item">
-			<div class="img" style="background-image: url(./3.jpg);"></div>
-		</div>
-		<div class="mg-slide-item">
-			<div class="img" style="background-image: url(./1.jpg);"></div>
-		</div>
-		<div class="mg-slide-item">
-			<div class="img" style="background-image: url(./2.png);"></div>
-		</div>
+<div class="mg-slide-container">
+	<div class="mg-slide-item">
+		<div class="img" style="background-image: url(./1.jpg);"></div>
 	</div>
+	<div class="mg-slide-item">
+		<div class="img" style="background-image: url(./2.png);"></div>
+	</div>
+	<div class="mg-slide-item">
+		<div class="img" style="background-image: url(./3.jpg);"></div>
+	</div>
+	<div class="mg-slide-item">
+		<div class="img" style="background-image: url(./1.jpg);"></div>
+	</div>
+	<div class="mg-slide-item">
+		<div class="img" style="background-image: url(./2.png);"></div>
+	</div>
+</div>
 </div>
 ```
 
